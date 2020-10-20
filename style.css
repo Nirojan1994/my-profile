@@ -1,0 +1,92 @@
+/*Colors and fonts*/
+
+body{
+	background-color: rgb(43,66,113);
+	color: rgb(43,66,113);
+	font-family: 'Playfair Display', serif;
+	font-size: 17px;
+	font-weight: lighter;
+	text-align: center;
+
+}
+
+h1,h2{
+	color: #94B0DA;
+	font-family: 'Poppins', sans-serif;
+}
+h1{
+	
+	font-size: 80px;
+	font-family: 'Poppins', sans-serif;
+}
+
+h2{
+	
+	font-size: 35px;
+	font-weight: lighter;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(43,66,113);
+	transition: color 0.7s ease
+
+}
+a:hover{
+	color: #FABC2A;
+	font-weight: bolder;
+}
+
+p {
+	margin: 30px;
+}
+
+li {
+	list-style: none;
+}
+
+.list-inline {
+	display: flex;
+	justify-content: space-around;
+	margin: 0;
+	padding: 0;
+}
+
+.list-inline i {
+	font-size: 32px;
+}
+
+/* ID and Class */
+
+
+.container-card {
+	box-shadow: 10px 5px 5px red;
+}
+
+
+#card-design{
+	background:#E8DED2;
+	padding:40px;
+	margin:50px;
+	border-radius: 20px;
+	box-shadow: 5px 3px 3px black
+}
+
+/*Image*/
+
+img{
+	border-radius:50%;
+	box-shadow: 0 15px 35px rgba(50,50,93,0.2) 
+}
+
+.btn-red{
+	background-color: #94B0DA;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 8px;
+}
+	
+
+/* Custom design with class*/
+
+
